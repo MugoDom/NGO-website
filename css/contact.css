@@ -1,0 +1,195 @@
+header{
+    background-size: cover;
+    background-position: center;
+}
+a{
+    font-size:14px;
+    text-transform: uppercase;
+}
+.navbar{
+    background: #262626;
+
+}
+.navbar:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.navbar ul{
+    list-style: none;
+    margin: 0;
+
+}
+.navbar ul li{
+    float: left;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+}
+.navbar ul li:hover a{
+    background: #34495a;
+}
+.navbar ul ul{
+    position:absolute;
+    padding: 0;
+    min-width: 160px;
+    display: none;
+    top: 100%;
+    left: 0;
+
+}
+.navbar ul li:hover ul{
+    display: block;
+}
+.navbar ul ul li:hover a{
+    background: #262626;
+}
+.navbar ul ul li{
+    position: relative;
+}
+.navbar ul ul li{
+    top: 0;
+    /* left: 100%; */
+
+}
+.navbar ul ul ul li:hover a{
+    background: #34495a;
+}
+
+
+/* html{
+    height: 100%;
+} */
+body{
+    background-color: violet;
+    height: 100vh;
+    color: white;
+    font-family: 'Gabriela', serif;
+    margin: 0;
+    padding: 0;
+}
+.paragraph{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 80px;
+    top: 10%;
+}
+.box{
+    width: 350px;
+    padding: 40px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+}
+.box input[type="text"], .box [type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #fff;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.box h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+.box input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: #fff;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+
+}
+.box input[type="submit"]:hover{
+    background: #2ecc71;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  
+  footer .contact {
+    background-color: black;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+
+} 
+  
+
+
+
+
+
+
+
+
+
+
+
