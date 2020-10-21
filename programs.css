@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(224, 208, 208);
+}
+header{
+    background-size: cover;
+    background-position: center;
+}
+a{
+    font-size:14px;
+    text-transform: uppercase;
+}
+.navbar{
+    background: #262626;
+
+}
+.navbar:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.navbar ul{
+    list-style: none;
+    margin: 0;
+
+}
+.navbar ul li{
+    float: left;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+}
+.navbar ul li:hover a{
+    background: #34495a;
+}
+.navbar ul ul{
+    position:absolute;
+    padding: 0;
+    min-width: 160px;
+    display: none;
+    top: 100%;
+    left: 0;
+
+}
+.navbar ul li:hover ul{
+    display: block;
+}
+.navbar ul ul li:hover a{
+    background: #262626;
+}
+.navbar ul ul li{
+    position: relative;
+}
+.navbar ul ul li{
+    top: 0;
+    /* left: 100%; */
+
+}
+.navbar ul ul ul li:hover a{
+    background: #34495a;
+}
