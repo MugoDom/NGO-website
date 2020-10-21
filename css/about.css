@@ -8,3 +8,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.mission h1{
+    color: blue;
+    text-align: center;
+}
+.mission {
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
