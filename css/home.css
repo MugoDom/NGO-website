@@ -98,20 +98,20 @@ a{
 slide:nth-child(1){
     left: 0%;
     animation-delay: -1s;
-    background-image: url("../images/ngo.jpg");
+    background-image: url("../Himages/ngo.jpg");
     background-size: cover;
     background-position: center;
 } 
 slide:nth-child(2){
     /* left: 0%; */
     animation-delay: 2s;
-    background-image: url("../images/community.jpg");
+    background-image: url("../Himages/community.jpg");
     background-size: cover;
     background-position: center;
 }
 slide:nth-child(3){
     animation-delay: 5s;
-    background-image: url("../images/insp.jpeg");
+    background-image: url("../Himages/insp.jpeg");
     background-size: cover;
     background-position: center;
 
@@ -119,7 +119,7 @@ slide:nth-child(3){
 slide:nth-child(4){
     left: 0%;
     animation-delay: 8s;
-    background-image: url("../images/pple.jpg");
+    background-image: url("../Himages/pple.jpg");
     background-size: cover;
     background-position: center;
 
