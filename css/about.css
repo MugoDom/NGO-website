@@ -8,6 +8,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .mission h1{
     color: blue;
     text-align: center;
@@ -16,4 +17,13 @@ body {
   font-weight: bold;
   font-size: 35px;
   text-align: center;
+}
+.vision h1 {
+    color: blue;
+    text-align: center;
+}
+.vision p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
 }
