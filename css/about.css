@@ -44,3 +44,20 @@ body {
     height: 200px;
     background-repeat: no-repeat;
 }
+.row .col-md-3 {
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+.story {
+  display: flex;
+  justify-content: space-around;
+ } 
+ #story{
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+.donors .col-md-3 img {
+    border-radius: 50%;
+}   
