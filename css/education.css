@@ -16,20 +16,22 @@ body {
     clear: both;
 }
 
-
-
 header h1 {
     text-align: center;
     font-size: 60px;
     color: #111111.;
     margin: 1.5 0px;
-    font-weight:bold;
+    font-weight: bold;
 }
-#h {font-weight:bold;}
+
+#h {
+    font-weight: bold;
+}
+
 h2 {
     color: #111111.;
     margin: 1.5 0px;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 .left-column {
@@ -60,8 +62,6 @@ h2 {
 }
 
 
-
-
 /*responsive */
 
 @media(max-width:800px) {
@@ -71,68 +71,136 @@ h2 {
         padding: 0px;
     }
 }
-#para{font-size:16px;
-color:black;
-font-family:verdana;}
-header{
+
+#para {
+    font-size: 16px;
+    color: black;
+    font-family: verdana;
+}
+
+header {
     background-size: cover;
     background-position: center;
-    padding:20px;
+    padding: 20px;
 }
-a{
-    font-size:14px;
+
+a {
+    font-size: 14px;
     text-transform: uppercase;
 }
-.navbar{
-    background: #262626;
 
+.navbar {
+    background: #262626;
 }
-.navbar:after{
+
+.navbar:after {
     content: '';
     clear: both;
     display: block;
 }
-.navbar ul{
+
+.navbar ul {
     list-style: none;
     margin: 0;
-
 }
-.navbar ul li{
+
+.navbar ul li {
     float: left;
     position: relative;
 }
-.navbar ul li a{
+
+.navbar ul li a {
     text-decoration: none;
     color: #fff;
     padding: 15px 20px;
     display: block;
 }
-.navbar ul li:hover a{
+
+.navbar ul li:hover a {
     background: #34495a;
 }
-.navbar ul ul{
-    position:absolute;
+
+.navbar ul ul {
+    position: absolute;
     padding: 0;
     min-width: 160px;
     display: none;
     top: 100%;
     left: 0;
-
 }
-.navbar ul li:hover ul{
+
+.navbar ul li:hover ul {
     display: block;
 }
-.navbar ul ul li:hover a{
+
+.navbar ul ul li:hover a {
     background: #262626;
 }
-.navbar ul ul li{
+
+.navbar ul ul li {
     position: relative;
 }
-.navbar ul ul li{
+
+.navbar ul ul li {
     top: 0;
     /* left: 100%; */
-
 }
-.navbar ul ul ul li:hover a{
+
+.navbar ul ul ul li:hover a {
     background: #34495a;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+footer .contact {
+    background-color: black;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #DD4B39;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007BB5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #BB0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.picha {
+    height: 70%;
+    width: 70%;
 }
