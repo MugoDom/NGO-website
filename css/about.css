@@ -3,7 +3,7 @@ body {
 }
 .image1 {
     background-image: url("../images.about/social-group-african-american-africans-community-youth-african.jpg");
-    height: 500px;
+    height: 400px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,14 +50,17 @@ body {
     padding-bottom: 20px;
     padding-left: 15px;
 }
-.story {
-  display: flex;
-  justify-content: space-around;
- } 
- #story{
-    padding-bottom: 50px;
-    padding-left: 80px;
-}
+/* .story3{
+  left: 50%;
+  top: 10%;
+ }  */
+ .story {
+     background-image: url("../images.about/group-african-american-business-people-600w-1513500965.webp");
+     background-size: cover;
+     height: 400px;
+     width: 1000px;
+     text-align: center;
+ }
 .donors .col-md-3 img {
     border-radius: 50%;
 }
@@ -137,7 +140,7 @@ a{
     animation: shake 0.5s;
     animation-iteration-count: infinite;
 }
-.partners .col-md-2 img:hover {
+.partners .col-md-3 img:hover {
         animation: shake 0.5s;
         animation-iteration-count: infinite;
 }
