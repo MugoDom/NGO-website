@@ -27,3 +27,20 @@ body {
     font-weight: bold;
     font-size: 35px;
 }
+#column1 {
+    background-image: url("../images.about/11_02_19-eban-alumni-awards-winners-001.jpg");
+    height: 200px;
+    background-size: cover;
+}
+#column2 {
+    background-image: url("../images.about/photo-1584980959228-79409574bef2.jpeg");
+    background-size: cover;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+#column3 {
+    background-image: url("../images.about/471da2fbcc742ae7f5e5030e5e6a126c.jpg");
+    background-size: cover;
+    height: 200px;
+    background-repeat: no-repeat;
+}
