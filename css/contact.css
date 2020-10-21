@@ -134,32 +134,26 @@ body{
 .fa:hover {
     opacity: 0.7;
 }
-
 .fa-facebook {
   background: #3B5998;
   color: white;
 }
-
 .fa-twitter {
   background: #55ACEE;
   color: white;
 }
-
 .fa-google {
-  background: #dd4b39;
+  background: #DD4B39;
   color: white;
 }
-
 .fa-linkedin {
-  background: #007bb5;
+  background: #007BB5;
   color: white;
 }
-
 .fa-youtube {
-  background: #bb0000;
+  background: #BB0000;
   color: white;
 }
-
 .fa-instagram {
   background: #125688;
   color: white;
@@ -172,15 +166,25 @@ body{
     text-decoration: none;
     margin: 5px 2px;
   }
-  
-  
   footer .contact {
     background-color: black;
     text-align: center;
     padding-top: 40px;
     color: white;
+}
 
-} 
+.container{
+    background-image: url("https://www.vicnews.com/wp-content/uploads/2020/06/21877933_web1_VolunteerHandsMetro.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 10%;
+    color: #000;
+    font-family: 'Gabriela', serif;
+    margin: 0;
+    padding: 0;
+}
   
 
 
