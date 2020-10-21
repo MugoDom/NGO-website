@@ -1,0 +1,208 @@
+body {
+    background-color:  rgb(224, 208, 208);;
+}
+.image1 {
+    background-image: url("../images.about/social-group-african-american-africans-community-youth-african.jpg");
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mission h1{
+    color: blue;
+    text-align: center;
+}
+.mission {
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+}
+.vision h1 {
+    color: blue;
+    text-align: center;
+}
+.vision p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+#column1 {
+    background-image: url("../images.about/11_02_19-eban-alumni-awards-winners-001.jpg");
+    height: 200px;
+    background-size: cover;
+}
+#column2 {
+    background-image: url("../images.about/photo-1584980959228-79409574bef2.jpeg");
+    background-size: cover;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+#column3 {
+    background-image: url("../images.about/471da2fbcc742ae7f5e5030e5e6a126c.jpg");
+    background-size: cover;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.row .col-md-3 {
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+}
+/* .story3{
+  left: 50%;
+  top: 10%;
+ }  */
+ .story {
+     background-image: url("../images.about/group-african-american-business-people-600w-1513500965.webp");
+     background-size: cover;
+     height: 400px;
+     width: 1000px;
+     text-align: center;
+ }
+.donors .col-md-3 img {
+    border-radius: 50%;
+}
+header{
+    background-size: cover;
+    background-position: center;
+}
+a{
+    font-size:14px;
+    text-transform: uppercase;
+}
+.navbar{
+    background: #262626;
+
+}
+.navbar:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.navbar ul{
+    list-style: none;
+    margin: 0;
+
+}
+.navbar ul li{
+    float: left;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+}
+.navbar ul li:hover a{
+    background: #34495a;
+}
+.navbar ul ul{
+    position:absolute;
+    padding: 0;
+    min-width: 160px;
+    display: none;
+    top: 100%;
+    left: 0;
+
+}
+.navbar ul li:hover ul{
+    display: block;
+}
+.navbar ul ul li:hover a{
+    background: #262626;
+}
+.navbar ul ul li{
+    position: relative;
+}
+.navbar ul ul li{
+    top: 0;
+    left: 100%;
+
+}
+.navbar ul ul ul li:hover a{
+    background: #34495a;
+}
+ #part{
+    text-align: center;
+}
+.partners h2 {
+    text-align: center;
+    font-size: 50px;
+}
+.donors h2 {
+    text-align: center;
+    font-size: 50px;
+}
+.donors .col-md-3 img:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+.partners .col-md-3 img:hover {
+        animation: shake 0.5s;
+        animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  footer .contact {
+      background-color: black;
+      text-align: center;
+      padding-top: 40px;
+      color: white;
+  }  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
