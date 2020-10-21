@@ -62,14 +62,18 @@ a{
 .navbar ul ul ul li:hover a{
     background: #34495a;
 }
-/* .image1 {
-    width: 1000px;
-    text-align: center;
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 .image2 {
-    width: 1000px;
-    text-align: center;
-}  */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}  
 .container{display:flex;
 }
 .fa {

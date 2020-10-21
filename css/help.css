@@ -1,12 +1,12 @@
 * {
     box-sizing: border-box;
   }
-  
   body {
-    background-color: #f1f1f1;
+    background-color:  rgb(224, 208, 208);
     padding: 20px;
     font-family: Arial;
-  }
+}
+
   /* Center website */
 .main {
     max-width: 1000px;
